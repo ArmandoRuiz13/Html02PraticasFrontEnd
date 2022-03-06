@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/admin.css">
+    <title>Inventario</title>
+</head>
+<body>
+    <header>
+        <a href="./admin.html"><img class="logo" src="./img/logo.PNG"></a>
+        <div class="ancho">
+            <div class="marcologo">
+                <p><a href="./admin.html">Pasteleria GalacPan</a></p>
+            </div>
+            <div class="info">
+                <a href="#info">CONTACTO</a>
+                <a href="./index.html">INICIO</a>
+            </div>
+        </div>
+    </header>
+    <div class="margen_tabla">
+        <table summary="administracion">
+            <caption>ADMINISTRACION DE INVENTARIO PASTELERIA SABORES</caption>
+            <thead>
+              <tr>
+                <th scope="col">Sabores</th>
+                <th scope="col">Pasteles disponibles</th>
+                <th scope="col">Pasteles para hacer con los ingredientes</th>
+                <th scope="col">Pasteles vendidos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Jupiter(chocolate)</th>
+                <td>10</td>
+                <td>5</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <th scope="row">Marte(fresa)</th>
+                <td>19</td>
+                <td>5</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <th scope="row">Lunar(queso)</th>
+                <td>4</td>
+                <td>6</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <th scope="row">Urano(mora)</th>
+                <td>5</td>
+                <td>10</td>
+                <td>5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Número total de pasteles vendidos</th>
+                <td colspan="2">27</td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+    <div class="margen_tabla">
+        <table summary="administracion">
+            <caption>ADMINISTRACION DE INVENTARIO ADORNOS</caption>
+            <thead>
+              <tr>
+                <th scope="col">Adornos</th>
+                <th scope="col">Adornos disponibles</th>
+                <th scope="col">Adornos vendidos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Globos</th>
+                <td>10</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th scope="row">Rosas</th>
+                <td>19</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th scope="row">Letras</th>
+                <td>4</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <th scope="row">Figuras</th>
+                <td>5</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row">Bordados</th>
+                <td>5</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row">Velas</th>
+                <td>5</td>
+                <td>10</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Número total de adornos vendidos</th>
+                <td colspan="2">46</td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+    <div class="margen_tabla">
+        <table summary="administracion">
+            <caption>PEDIDOS REALIZADOS</caption>
+            <thead class="theadp">
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Correo</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Sabor</th>
+                <th scope="col">Adornos</th>
+                <th scope="col">fecha</th>
+                <th scope="col">Hora</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Pedro</td>
+                <td>3347473848</td>
+                <td>pedrito34@gmail.com</td>
+                <td>Incluyan poco betun</td>
+                <td>Jupiter(chocolate)</td>
+                <td>globos,bordado</td>
+                <td>5-Mar-2022</td>
+                <td>10:23 am</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Juana</td>
+                <td>3467473848</td>
+                <td>Juanita34@gmail.com</td>
+                <td>Incluyan mucho betun</td>
+                <td>Fresa(chocolate)</td>
+                <td>velas,bordado</td>
+                <td>6-Mar-2022</td>
+                <td>11:25 am</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Armando</td>
+                <td>3947473848</td>
+                <td>armando34@gmail.com</td>
+                <td>sin betun</td>
+                <td>Lunar(queso)</td>
+                <td>velas,Figura</td>
+                <td>6-Mar-2022</td>
+                <td>1:30 pm</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Número total de pedidos realizados</th>
+                <td colspan="2">3</td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+    <div class="inf_margen" id="info">
+        <h2>CONTACTO</h2>
+        <ul>
+            <li>Tel: 3343948594  |</li>
+            <li>Direcion: Fransico Guillermo #349, GDL Jalisco  |</li>
+            <li>Horario de atencion: 10:00 am - 6:00 pm</li>
+        </ul>
+    </div>
+</body>
+</html>

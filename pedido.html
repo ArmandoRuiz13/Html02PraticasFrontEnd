@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/pedido.css">
+</head>
+<body>
+    <header>
+        <a href="./pedido.html"><img class="logo" src="./img/logo.PNG"></a>
+        <div class="ancho">
+            <div class="marcologo">
+                <p><a href="./pedido.html">Pasteleria GalacPan</a></p>
+            </div>
+            <div class="info">
+                <a href="#info">CONTACTO</a>
+                <a href="./index.html">INICIO</a>
+            </div>
+        </div>
+    </header>
+    <div class="margen_pedido">
+        <h1>Listo para tomar tu pedido</h1>
+        <div class="informacion">
+            <h2>Escribe los datos para tomar tu pedido</h2>
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Nombre"><br>
+            <label for="Telefono">Telefono</label>
+            <input type="tel" placeholder="Telefono" maxlength="10" min="10"><br>
+            <label for="Correo">Correo electronico</label>
+            <input type="email" placeholder="Correo electronico"><br>
+            <label for="datos">Descripción del Pastel</label>
+            <input type="text" placeholder="Descripción Pastel">
+        </div>
+        <div class="sabores">
+            <h2>Sabores Pastel</h2>  <h3>Puedes combinar sabores, unicamente dejalo ---- <br>   opcion tamaño y unicamente selecciona el de abajo</h3>
+            <input type="checkbox" id="jupiter">
+            <label for="jupiter">Jupiter(chocolate)</label>
+            <label for="tamaño">Tamaño pastel</label>
+            <select name="tamaño" id="tamaño">
+                <option value="----">----</option>
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Chico">Chico</option>
+                <option value="Indivial">Indivial</option>
+            </select><br>
+            <input type="checkbox" id="marte">
+            <label for="marte">Marte(fresa)</label>
+            <label for="tamaño">Tamaño pastel</label>
+            <select name="tamaño" id="tamaño">
+                <option value="----">----</option>
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Chico">Chico</option>
+                <option value="Indivial">Indivial</option>
+            </select><br>
+            <input type="checkbox" id="lunar">
+            <label for="lunar">Lunar(queso)</label>
+            <label for="tamaño">Tamaño pastel</label>
+            <select name="tamaño" id="tamaño">
+                <option value="----">----</option>
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Chico">Chico</option>
+                <option value="Indivial">Indivial</option>
+            </select><br>
+            <input type="checkbox" id="urano">
+            <label for="urano">Urano(mora)</label>
+            <label for="tamaño">Tamaño pastel</label>
+            <select name="tamaño" id="tamaño">
+                <option value="----">----</option>
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Chico">Chico</option>
+                <option value="Indivial">Indivial</option>
+            </select><br>
+            <label for="tamaño">Tamaño pastel combinado</label>
+            <select name="tamaño" id="tamaño">
+                <option value="----">----</option>
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Chico">Chico</option>
+                <option value="Indivial">Indivial</option>
+            </select>
+        </div>
+        <div class="adornos">
+            <h2>Adornos Pastel</h2>
+            <input type="checkbox" id="globos">
+            <label for="globos">Globos</label>
+            <input type="checkbox" id="rosas">
+            <label for="rosas">Rosas</label>
+            <input type="checkbox" id="letras">
+            <label for="letras">Letras c/u</label>
+            <input type="checkbox" id="figura">
+            <label for="figura">Figura custom</label>
+            <input type="checkbox" id="bordados">
+            <label for="bordados">Bordados</label>
+            <input type="checkbox" id="velas">
+            <label for="velas">Velas</label>
+        </div>
+        <div class="boton">
+            <input type="submit" value="Enviar Pedido">
+        </div>
+
+    </div>
+    <div class="inf_margen" id="info">
+        <h2>CONTACTO</h2>
+        <ul>
+            <li>Tel: 3343948594  |</li>
+            <li>Direcion: Fransico Guillermo #349, GDL Jalisco  |</li>
+            <li>Horario de atencion: 10:00 am - 6:00 pm</li>
+        </ul>
+    </div>
+</body>
+</html>
